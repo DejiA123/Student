@@ -13,7 +13,11 @@ public class Student {
   }
 
 
-    public int getname() {
-      return thisname;
+    public String getName() {
+      return name;
+    }
+
+    public String getEmail() {
+        return email;
     }
 }
